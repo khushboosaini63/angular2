@@ -1,6 +1,9 @@
-# angular2
-angular2 app
-steps:
+# Angular2Demo
+This is first angular 2 project setup and hello world demo
 
-npm install
-npm start
+# How to Run the Demo app
+i) install all dependency using :
+npm intsall
+
+ii) Run application :
+npm start 

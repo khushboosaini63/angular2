@@ -1,0 +1,30 @@
+<header id='headerone'>
+	<ul>
+	  <li><a [routerLink]="['/home']" class="active">Home</a></li>
+	  <li><a [routerLink]="['/news']">News</a></li>
+	  <li><a [routerLink]="['/contact']">Contact</a></li>
+	  <li><a [routerLink]="['/about']">About</a></li>
+	</ul>
+
+	<span class="searchbar">
+	<input type="text" placeholder="Search here.."/>
+	</span>
+	
+</header>     <!-- put header and footer outside the body tag -->
+  
+	
+    <!--<section>...</section>
+    <section>...</section>
+    <section>...</section>
+	<h1>Hkello {{sometext}}!</h1>
+	<div name="testdiv"><input type="text" [(ngModel)]="sometext" placeholder="Enter a name"/></div>
+	<h1>Hello {{ sometext }}</h1>-->
+	
+	<div class='homepage'><router-outlet></router-outlet>
+		
+	</div>
+	
+	
+  <footer id='footerone'>
+		<span style="margin-left: 593px;color:white;">Powered by : Make in India</span>
+  </footer>
